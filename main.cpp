@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//  交换两个变量
 void change(char *a, char *b) {
     char temp;
     temp = *a;
