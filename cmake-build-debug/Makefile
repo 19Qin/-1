@@ -142,6 +142,60 @@ change/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/build
 .PHONY : change/fast
 
+1.o: 1.cpp.o
+
+.PHONY : 1.o
+
+# target to build an object file
+1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/1.cpp.o
+.PHONY : 1.cpp.o
+
+1.i: 1.cpp.i
+
+.PHONY : 1.i
+
+# target to preprocess a source file
+1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/1.cpp.i
+.PHONY : 1.cpp.i
+
+1.s: 1.cpp.s
+
+.PHONY : 1.s
+
+# target to generate assembly for a file
+1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/1.cpp.s
+.PHONY : 1.cpp.s
+
+HowManyDays.o: HowManyDays.cpp.o
+
+.PHONY : HowManyDays.o
+
+# target to build an object file
+HowManyDays.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/HowManyDays.cpp.o
+.PHONY : HowManyDays.cpp.o
+
+HowManyDays.i: HowManyDays.cpp.i
+
+.PHONY : HowManyDays.i
+
+# target to preprocess a source file
+HowManyDays.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/HowManyDays.cpp.i
+.PHONY : HowManyDays.cpp.i
+
+HowManyDays.s: HowManyDays.cpp.s
+
+.PHONY : HowManyDays.s
+
+# target to generate assembly for a file
+HowManyDays.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/HowManyDays.cpp.s
+.PHONY : HowManyDays.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -178,6 +232,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... change"
+	@echo "... 1.o"
+	@echo "... 1.i"
+	@echo "... 1.s"
+	@echo "... HowManyDays.o"
+	@echo "... HowManyDays.i"
+	@echo "... HowManyDays.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

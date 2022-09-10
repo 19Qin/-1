@@ -93,12 +93,12 @@ clean: CMakeFiles/change.dir/clean
 CMakeFiles/change.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yit/CLionProjects/change/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target change"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yit/CLionProjects/change/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target change"
 .PHONY : CMakeFiles/change.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/change.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yit/CLionProjects/change/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yit/CLionProjects/change/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/change.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yit/CLionProjects/change/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/change.dir/rule

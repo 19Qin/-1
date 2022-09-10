@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/yit/CLionProjects/change/1.cpp">
+			<Option target="change"/>
+		</Unit>
+		<Unit filename="/Users/yit/CLionProjects/change/HowManyDays.cpp">
+			<Option target="change"/>
+		</Unit>
 		<Unit filename="/Users/yit/CLionProjects/change/main.cpp">
 			<Option target="change"/>
 		</Unit>

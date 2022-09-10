@@ -3,4 +3,4 @@ project(change)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(change main.cpp)
+add_executable(change main.cpp HowManyDays.cpp)
